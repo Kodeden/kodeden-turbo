@@ -5,6 +5,7 @@ module.exports = {
   extends: [
     ...[
       "@vercel/style-guide/eslint/browser",
+      "@vercel/style-guide/eslint/node",
       "@vercel/style-guide/eslint/typescript",
       "@vercel/style-guide/eslint/react",
     ].map(require.resolve),
@@ -28,7 +29,6 @@ module.exports = {
         allow: ["error", "info", "table", "warn"],
       },
     ],
-    "@typescript-eslint/no-empty-function": "off",
   },
   settings: {
     "import/resolver": {
