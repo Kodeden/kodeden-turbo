@@ -1,5 +1,5 @@
 {
-  "name": "kodeden-turbo",
+  "name": "kode-turbo",
   "private": true,
   "scripts": {
     "build": "turbo build",
