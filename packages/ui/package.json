@@ -16,6 +16,7 @@
   "devDependencies": {
     "@kode/eslint-config": "*",
     "@kode/typescript-config": "*",
+    "@radix-ui/react-slot": "^1.0.2",
     "@turbo/gen": "^1.12.4",
     "@types/eslint": "^8.56.10",
     "@types/node": "^20.11.24",

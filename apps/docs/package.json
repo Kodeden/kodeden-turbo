@@ -1,18 +1,19 @@
 {
   "name": "docs",
-  "private": true,
   "version": "0.0.0",
+  "private": true,
   "type": "module",
   "scripts": {
     "build-storybook": "storybook build",
-    "dev": "storybook dev -p 6006",
-    "preview-storybook": "serve storybook-static",
+    "chromatic": "chromatic --exit-zero-on-changes",
     "clean": "rm -rf .turbo && rm -rf node_modules",
+    "dev": "storybook dev -p 6006",
     "lint": "eslint ./stories/*.stories.tsx --max-warnings 0",
+    "preview-storybook": "serve storybook-static",
     "test-storybook": "test-storybook",
-    "type-check": "tsc --noEmit",
-    "chromatic": "chromatic --exit-zero-on-changes"
+    "type-check": "tsc --noEmit"
   },
+  "prettier": "@vercel/style-guide/prettier",
   "dependencies": {
     "@kode/ui": "*",
     "react": "^18.2.0",
@@ -20,6 +21,7 @@
   },
   "devDependencies": {
     "@chromatic-com/storybook": "^1.3.3",
+    "@kode/tailwind-config": "*",
     "@kode/typescript-config": "*",
     "@storybook/addon-essentials": "^8.0.8",
     "@storybook/addon-interactions": "^8.0.8",
@@ -43,6 +45,5 @@
     "tailwindcss": "^3.4.3",
     "typescript": "^5.2.2",
     "vite": "^5.2.9"
-  },
-  "prettier": "@vercel/style-guide/prettier"
+  }
 }
