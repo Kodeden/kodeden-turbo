@@ -3,9 +3,14 @@
   "version": "1.0.0",
   "private": true,
   "exports": {
-    ".": "./tailwind.config.ts"
+    ".": "./tailwind.config.ts",
+    "./cn": "./cn.ts"
   },
   "devDependencies": {
-    "@kode/typescript-config": "*"
+    "@kode/typescript-config": "*",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.0",
+    "tailwind-merge": "^2.3.0",
+    "tailwindcss-animate": "^1.0.7"
   }
 }
