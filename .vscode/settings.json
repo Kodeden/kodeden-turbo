@@ -16,6 +16,10 @@
     }
   ],
   "files.autoSave": "onFocusChange",
+  "tailwindCSS.experimental.classRegex": [
+    ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
+    ["cx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
+  ],
   "typescript.inlayHints.parameterNames.enabled": "none",
   "typescript.inlayHints.variableTypes.enabled": false,
   "typescript.tsdk": "node_modules/typescript/lib",
