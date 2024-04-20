@@ -24,12 +24,14 @@ module.exports = {
   plugins: ["react-refresh", "use-encapsulation"],
   rules: {
     "@typescript-eslint/explicit-function-return-type": "off",
+
     "no-console": [
       "warn",
       {
         allow: ["error", "info", "table", "warn"],
       },
     ],
+    "react/button-has-type": "off",
     "react-refresh/only-export-components": [
       "warn",
       { allowConstantExport: true },
