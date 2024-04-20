@@ -1,4 +1,4 @@
-import baseConfig from '@kode/tailwind-config';
+import { config as baseConfig } from '@kode/tailwind-config';
 import type { Config } from 'tailwindcss';
 
 const config: Pick<Config, 'content' | 'presets'> = {

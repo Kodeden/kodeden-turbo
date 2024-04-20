@@ -1,7 +1,7 @@
 import type { Config } from "tailwindcss";
 import { fontFamily } from "tailwindcss/defaultTheme";
 
-const config: Omit<Config, "content"> = {
+export const config: Omit<Config, "content"> = {
   darkMode: ["class"],
   theme: {
     container: {
@@ -73,5 +73,3 @@ const config: Omit<Config, "content"> = {
   },
   plugins: [require("tailwindcss-animate")],
 };
-
-export default config;
