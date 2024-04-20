@@ -15,6 +15,7 @@
   "prettier": "@vercel/style-guide/prettier",
   "devDependencies": {
     "@kode/eslint-config": "*",
+    "@kode/tailwind-config": "*",
     "@kode/typescript-config": "*",
     "@radix-ui/react-slot": "^1.0.2",
     "@turbo/gen": "^1.12.4",
@@ -23,6 +24,7 @@
     "@types/react": "^18.2.77",
     "@types/react-dom": "^18.2.19",
     "@typescript-eslint/eslint-plugin": "^7.7.0",
+    "class-variance-authority": "^0.7.0",
     "eslint": "^8.57.0",
     "prettier": "3.2.5",
     "react": "^18.2.0",
