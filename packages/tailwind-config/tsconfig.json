@@ -1,5 +1,5 @@
 {
   "extends": "@kode/typescript-config/base.json",
-  "include": ["."],
+  "include": ["./*.ts"],
   "exclude": ["node_modules"]
 }
