@@ -3,16 +3,20 @@ import * as AccordionPrimitive from '@radix-ui/react-accordion';
 import { ChevronDownIcon } from '@radix-ui/react-icons';
 import { type ComponentPropsWithoutRef, type ReactNode } from 'react';
 
-export type ItemProps = Pick<
-  ComponentPropsWithoutRef<typeof AccordionPrimitive.Item>,
-  'disabled' | 'value'
-> & {
+export interface ItemProps
+  extends Pick<
+    // Pick the props from AccordionPrimitive.Item that we want to expose.
+    ComponentPropsWithoutRef<typeof AccordionPrimitive.Item>,
+    // Now, we only want these props.
+    'disabled' | 'value'
+  > {
+  // And we want to add our own props.
   contentClassName?: string;
   contentChildren: ReactNode;
   itemClassName?: string;
   triggerChildren: ReactNode;
   triggerClassName?: string;
-};
+}
 
 export function Item({
   contentClassName,
