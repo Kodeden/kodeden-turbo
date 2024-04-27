@@ -1,3 +1,5 @@
+'use client';
+
 import { cn } from '@kode/tailwind-config/cn';
 import { cva, type VariantProps } from 'class-variance-authority';
 import { forwardRef, type ButtonHTMLAttributes } from 'react';
