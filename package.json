@@ -9,7 +9,9 @@
   },
   "devDependencies": {
     "@kode/eslint-config": "*",
+    "@kode/tailwind-config": "^1.0.0",
     "@kode/typescript-config": "*",
+    "clsx": "^2.1.1",
     "prettier": "^3.2.5",
     "turbo": "latest"
   },
