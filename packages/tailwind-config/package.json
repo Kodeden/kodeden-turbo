@@ -8,6 +8,7 @@
   },
   "devDependencies": {
     "@kode/typescript-config": "*",
+    "@tailwindcss/forms": "^0.5.7",
     "clsx": "^2.1.0",
     "tailwind-merge": "^2.3.0"
   }
