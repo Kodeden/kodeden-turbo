@@ -1,7 +1,6 @@
 import { cn } from '@kode/tailwind-config/cn';
 import { cva, type VariantProps } from 'class-variance-authority';
-import * as React from 'react';
-import { type ButtonHTMLAttributes } from 'react';
+import { forwardRef, type ButtonHTMLAttributes } from 'react';
 
 type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement> &
   VariantProps<typeof buttonVariants>;
@@ -36,7 +35,7 @@ const buttonVariants = cva(
   },
 );
 
-export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
+export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
   ({ className, variant, size, onClick, type, ...props }, ref) => {
     return (
       <button
