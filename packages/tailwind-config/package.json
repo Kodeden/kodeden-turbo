@@ -9,7 +9,6 @@
   "devDependencies": {
     "@kode/typescript-config": "*",
     "clsx": "^2.1.0",
-    "tailwind-merge": "^2.3.0",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwind-merge": "^2.3.0"
   }
 }

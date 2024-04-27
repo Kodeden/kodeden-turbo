@@ -25,14 +25,14 @@ export function Item({
 }: ItemProps) {
   return (
     <AccordionPrimitive.Item
-      className={cn('border-b', itemClassName)}
+      className={cn('border-b w-80', itemClassName)}
       disabled={disabled}
       value={value}
     >
       <AccordionPrimitive.Header className="flex">
         <AccordionPrimitive.Trigger
           className={cn(
-            'flex flex-1 items-center justify-between py-4 text-sm font-medium transition-all hover:underline [&[data-state=open]>svg]:rotate-180',
+            'flex flex-1 items-center justify-between py-4 text-sm font-medium transition-all hover:scale-105 [&[data-state=open]>svg]:rotate-180 gap-x-4 disabled:cursor-not-allowed disabled:scale-100 disabled:opacity-50',
             triggerClassName,
           )}
         >
