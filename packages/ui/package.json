@@ -17,7 +17,6 @@
     "@kode/eslint-config": "*",
     "@kode/tailwind-config": "*",
     "@kode/typescript-config": "*",
-    "@turbo/gen": "^1.12.4",
     "@types/eslint": "^8.56.10",
     "@types/node": "^20.11.24",
     "@types/react": "^18.2.77",
